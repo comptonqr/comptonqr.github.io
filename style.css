@@ -1,0 +1,130 @@
+/* button bar */
+.tab {
+    background: #fff;
+    border-bottom: 1px solid #ebebeb;
+    height: 80px;
+    top: 80px;
+    width: 100%;
+    z-index: 9999;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+/* Button Styles */
+.tablinks {
+    background-color: #fff;
+    border: 1px solid #eaecea;
+    border-bottom: none;
+    color: #000;
+    cursor: pointer;
+    float: left;
+    font-size: 20px;
+    font-weight: 400;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    padding: 0 40px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    width: 33.3333%;
+}
+
+/* body of the tab content */
+.tabcontent {
+    top: 1px;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 20px;
+    position: relative;
+    width: 100%;
+    list-style: none;
+}
+
+/* rules for the base list*/
+.columnlist {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+    list-style: none;
+    column-fill: balance;    
+}
+
+/* rules for a list that has a single card in it
+will need to replace with columnlist if more entries
+are added to the list */
+.singlecard {
+    columns: auto;
+}
+
+/* card styling for address content */
+.card {
+    background-color: rgba(155, 206, 212, 0.719);
+    border: 2px solid rgb(54, 64, 68);
+    padding: 1px;
+    margin: 0 0 1em 0;
+    width: 80%;
+}
+
+/* rules for a cards that has a single card in it
+will need to replace with card if more entries
+are added to the list */
+.cardsmall {
+    background-color: rgba(155, 206, 212, 0.719);
+    border: 2px solid rgb(54, 64, 68);
+    padding: 1px;
+    margin: 0 0 1em 0;
+    width: 33%;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 1px;
+}
+
+
+header {
+    background: #fff;
+    border-bottom: 1px solid #ebebeb;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    color: #000;
+    font-size: 40px;
+    font-weight: 400;
+
+}
+
+/* body styles */
+body {
+    background-color: #eaecea;
+    font-weight: 400;
+}
+
+/* body header styles */
+h3 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* header for the lists contents */
+h4 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-align: center;
+    column-span: all;
+}
+
+
+/* Path: Arahkni.github.io\index.html */
